@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Formulario</title>
+</head>
+
+<body class="Index" >
+    
+    <form clase = "Index" id= "Formulario" action="mailto:velis.ks@gmail.com" method="post">
+        
+        <h1 class="tituloFormulario">Breaking Bad - Que comience el juego!</h1>
+            
+        <fieldset class = "fieldset"><legend>Datos Personales:</legend>                
+            Nombre: <input type="text" name="Nombre:" id="nom" placeholder="Escribe aqui tu nombre" required>
+            <br>Apellidos: <input type="text" name="Apellidos:" id="ape" placeholder="Escribe aqui tus apellidos" required>
+            <br>Dirección: <input type="text" name="Direccioó:" id="nom" placeholder="Escribe aqui tu direccion">
+            <br>Ciudad: <input type="text" name="Ciudad:" id="Ciudad" placeholder="Escribe aqui tu Ciudad">
+            <br>Código Postal:<input type="text" name="CP:" id="CP" placeholder="Escribe aqui tu Codigo Postal">
+            <br>DNI: <input type="text" name="DNI:" id="DNI" placeholder="Escribe aqui tu DNI">
+            <br>Email: <input type="email" name="email:" id="email" placeholder="Escribe aqui tu email" required>
+        </fieldset> 
+            
+        <fieldset class="fieldset"><legend>Selecciona tu sexo y Fecha de nacimiento:</legend>               
+            Fecha de nacimiento: <input type="date" name="" id="">
+            <br>Hombre<input type="radio" name="sexo" value = "Hombre">
+            <br>Mujer<input type="radio" name="sexo" value = "Mujer">
+        </fieldset>        
+            
+        <fieldset class="fieldset"><legend>Selecciona tu personaje favirito y dinos las razones:</legend>                
+            <select name="Personaje Favorito">
+                <option value="Sin Seleccionar">Sin Seleccionar</option>
+                <option value="Jessie Pinkman">Jessie Pinkman</option>
+                <option value="Walter White">Walter White</option>
+                <option value="Saul Goodman">Saul Goodman</option>
+                <option value="Gustavo Formación">Gustavo Fring</option>
+                <option value="Pollos Hermanos">Pollos Herrmanos</option>
+                <option value="Otros">Otros</option>
+            </select>      
+            <textarea name="comentario" id="" maxlength="1000" placeholder="Mi final habría sido..."></textarea>
+        </fieldset> 
+            
+        <fieldset class="fieldset"><legend>Muestrate al mundo y adjunta tu foto para la Fanpage</legend>           
+            <input type="file" name="Archivi Adjunto" id="">
+        </fieldset>             
+        
+        <fieldset class="fieldset">
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </fieldset>              
+    </form>    
+</body>
+</html>

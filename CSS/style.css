@@ -1,0 +1,376 @@
+.Index{
+    
+    background-image: url(../Img/fondo.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: auto;
+    background-attachment: fixed;
+    background-size:cover;
+    }
+    
+    @font-face {
+        font-family: 'Breaking Bad';
+        src: url(Breaking\ Bad.ttf);
+    }
+    
+    #logo{
+        background-image: url(../Img/logo.PNG);
+        background-repeat: no-repeat;
+        border-width: 10px;        
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 200px; 
+    }
+    
+    #leyenda{
+        font-family: "Breaking Bad";
+        text-align: center;
+        font-size: 36px;
+        color: white;        
+    }
+    
+
+    
+    #poster{
+        margin-left: auto;
+        margin-right: auto;
+        border: 10px outset brown ;
+        border-radius: 22px;
+        width: 700px;
+        height: 300px;
+    }
+/*------------------------------------------------------------------------------------------------*/
+
+/*FORMULARIO*/
+
+
+
+.fieldset{
+    background-color: rgb(102, 104, 109);
+    width: 40%;
+    border: 5px solid grey ;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#Formulario{
+    font-family: "Breaking Bad";
+    text-align: justify;
+    font-size: 36px;
+    color: rgb(237, 234, 234);
+    font-weight: 1;
+}
+.tituloFormulario{
+   text-align: center;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/*Tabla */
+
+#cabecera{
+    background-image: url(../Img/cabecera.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 400px; 
+        
+}
+
+.bodyTabla {
+    background-color:#0c3e11 ;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+}
+        
+table, tr, td{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 8px solid black;
+    border-collapse: collapse;    
+}      
+
+td{
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    
+}
+
+.letra {      
+    color: #34342c;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    padding: 0.5px;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+}
+
+.elemento { 
+    font-size: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+
+/*------------------------------------------------------------------------------------*/
+   /*COLORES AGRUPADOS POR CáRTELES (ID)*/ 
+#waltersFamily  {
+    background-color: rgb(183, 219, 33);
+    }
+
+    
+#mexicanCartel  {
+    background-color: #828d53;
+    }    
+    
+#lawEnforcment  {
+    background-color: #eff6cc;
+    }
+        
+#waltersOperation   {
+    background-color: #89a419;
+    }
+    
+#gusOperation   {
+    background-color: #bcc49f;
+    }
+    
+#salamancasCrew {
+    background-color: #c5e24a;
+    }
+        
+#jessesFriends  {
+    background-color: #637126;
+    }
+        
+
+#additCharacters   {
+    background-color: #d5e97a;
+    }
+
+#elemAdicional  {
+    background-color: #c2c629;   
+    }
+
+/*------------------------------------------------------------------------------------------------------*/    
+
+/*IMAGENES DENTRO DE CELDAS*/
+#walter    {
+    background-color: rgb(183, 219, 33);
+    background-image: url(../Img/walterwhite.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:90%;
+    padding-top: 80px;
+
+} 
+
+#hector {
+    background-image: url(../Img/hectorsalamanca.png);
+    background-color:#c5e24a;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:90%;
+    padding-bottom: 80px;
+     
+}
+
+#tuco{
+    background-image: url(../Img/tucosalamanca.png);
+    background-color:#c5e24a;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:90%;
+    padding-bottom: 85px;
+    
+}
+
+#gustavo{
+    background-image: url(../Img/gustavofrink.png);
+    background-color: #bcc49f;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:65px;
+    padding-bottom: 85px;
+    
+}
+
+#skyler{
+    background-image: url(../Img/skylerwhite.png);
+    background-color: rgb(183, 219, 33);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:90%;
+    padding-bottom: 80px;
+    padding-bottom: 60px;   
+}
+
+#saul{
+    background-image: url(../Img/saulgoodman.png);
+    background-color: #89a419;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:90%;
+    padding-bottom: 85px;
+}
+
+#jessie{
+    background-image: url(../Img/jessiepinkman.png);
+    background-color: #89a419;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:90%;
+    padding-bottom: 85px;
+}
+
+#marie{
+    background-image: url(../Img/marieschrader.png);
+    background-color:#ab8fcc;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:90%;
+    padding-bottom: 85px;
+}
+
+#badger{
+    background-image: url(../Img/badger.png);
+    background-color: #637126;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:90%;
+    padding-bottom: 90px;
+}
+
+#mike{
+    background-image: url(../Img/mike.png);
+    background-color: #bcc49f;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:90%;
+    padding-bottom: 85px;
+}
+
+#gale{
+    background-image: url(../Img/gale.png);
+    background-color: #bcc49f;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:87%;
+    padding-bottom: 85px;
+}
+
+#hank{ 
+        
+    background-image: url(../Img/hankschrader.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#cristal{
+    background-image: url(../Img/cristal.png);
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position:center;
+    background-size:contain;
+}
+
+#rv{
+    background-image: url(../Img/bus.png);
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position:center;
+    background-size:contain;
+}
+
+#pizza{
+    background-image: url(../Img/pizza.png);
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position:center;
+    background-size:contain;
+}
+
+#pistola{
+    background-image: url(../Img/pistola.png);
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position:center;
+    background-size:contain;
+}
+
+#calzones{
+    background-image: url(../Img/calzoncillos.png);
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position:center;
+    background-size:contain;
+}
+
+#pocima{
+    background-image: url(../Img/pocima.png);
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position:center;
+    background-size:contain;
+}
+
+#mascara{
+    background-image: url(../Img/mascara.png);
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position:center;
+    background-size:contain;
+}
+
+#phone{
+    background-image: url(../Img/movil.png);
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position:center;
+    background-size:contain;
+}
+
+#plato{
+    background-image: url(../Img/plato.png);
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position:center;
+    background-size:contain;
+}
+
+#mosca{
+    background-image: url(../Img/mosca.png);
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position:center;
+    background-size:contain;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+ 
+        
+
+
+
+
+    
+    
+    
